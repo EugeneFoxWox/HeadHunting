@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    border: none;
+    padding: 5px;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    height: 80px;
+}
+
+.header{
+    background-color: #D9D9D996; 
+    height: 80px;
+}
+
+.container-menu-search{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+.menu li{
+    border-bottom: 3px solid #b9b9b9;
+    padding-bottom: 10px;
+}
+
+.search-group{
+    position: relative;
+}
+
+.search{
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    padding-right: 30px;
+    outline: 0;
+    border: 0;
+    box-shadow: -3px 3px 5px 0px #9A9999;
+}
+
+.search-icon{
+      width: 15px;
+}
+
+.search-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+}
+
+.vacancy-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.vacancy-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-item-info{
+    margin-top: 15px ;
+}
+
+.name-item{
+    text-transform: uppercase;
+
+}
+.price{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.buttons button{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.buttons-normal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.hide-button{
+    background-color: #8B1C1C40;
+    transform: rotate(-90deg);
+    padding: 15px;
+}
+
+.feedback-button{
+    background-color: #1C8B4240;
+    width: 100%;
+    padding: 20px;
+}
+
+.buttons-with-image{
+    display: flex;
+    gap: 5px;
+}
+
+.favor-button{
+    background-color: #BBB64245;
+    padding: 15px;
+}
+
+.chat-button{
+    background-color: #429EBB45;
+    padding: 15px;
+}
+
+.favor-button img{
+    width: 40px;
+}
+
+.chat-button img{
+    width: 40px;
+}
