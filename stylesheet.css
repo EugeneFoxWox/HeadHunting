@@ -53,6 +53,18 @@ body{
     align-items: center;
 }
 
+.link-registr{
+    color: black;
+    
+}
+
+.link-registr:visited{
+    color: rgb(114, 114, 114);
+}
+
+.link-registr:hover{
+    color: rgb(56, 66, 156);
+}
 
 .menu ul{
     display: flex;
