@@ -66,6 +66,11 @@ body{
     color: rgb(56, 66, 156);
 }
 
+.menu{
+    display: flex;
+    align-items: center;
+}
+
 .menu ul{
     display: flex;
     flex-direction: row;
@@ -75,7 +80,7 @@ body{
 
 .menu li{
     border-bottom: 3px solid #b9b9b9;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 .search-group{
@@ -84,8 +89,8 @@ body{
 
 .search{
     border-radius: 15px;
-    width: 250px;
-    height: 30px;
+    width: 400px;
+    height: 45px;
     padding: 10px;
     padding-right: 30px;
     outline: 0;
@@ -108,13 +113,20 @@ body{
     right: 0;
 }
 
+.vacancy-list{
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+    margin-top: 105px;
+}
+
 .vacancy-item{
     display: flex;
     justify-content: space-between;
+    
     background-color: white;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 15px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
 }
@@ -159,13 +171,13 @@ body{
 }
 
 .hide-button{
-    background-color: #8B1C1C40;
+    background-color: #fb090999;
     transform: rotate(-90deg);
     padding: 15px;
 }
 
 .feedback-button{
-    background-color: #1C8B4240;
+    background-color: #259e4dae;
     width: 100%;
     padding: 20px;
 }
@@ -176,12 +188,12 @@ body{
 }
 
 .favor-button{
-    background-color: #BBB64245;
+    background-color: #ffa238ad;
     padding: 15px;
 }
 
 .chat-button{
-    background-color: #429EBB45;
+    background-color: #34a6ccb2;
     padding: 15px;
 }
 
