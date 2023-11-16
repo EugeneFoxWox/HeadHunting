@@ -84,10 +84,25 @@ body{
 }
 
 .search-group{
-    position: relative;
+    
+    display: inline-flex;
+    justify-content: center;
+    width: 640px;
+    height: 150px;
+    background-image: url("/src/img/Ellipse\ 1.png");
+    padding: 10px;
+}
+
+.search-gr{
+    display: inline-flex;
+    justify-content: right;
+    width: 400px;
+    height:45px;
+    
 }
 
 .search{
+    position: relative;
     border-radius: 15px;
     width: 400px;
     height: 45px;
@@ -99,25 +114,20 @@ body{
 }
 
 .search-icon{
-      width: 15px;
+    position: absolute;
+    margin-top: 12px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+   
 }
 
-.search-icon-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    top: 0;
-    right: 0;
-}
 
 .vacancy-list{
     display: flex;
     gap: 37px;
     flex-direction: column;
-    margin-top: 105px;
+    margin-top: 75px;
 }
 
 .vacancy-item{
@@ -126,7 +136,7 @@ body{
     
     background-color: white;
     padding: 10px;
-    margin: 10px 0;
+    
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
 }
@@ -170,10 +180,18 @@ body{
 
 }
 
+.for-hide-button{
+    display: flex;
+    height: 100%;
+    justify-content:right;
+    align-items: center;
+}
+
 .hide-button{
     background-color: #fb090999;
     transform: rotate(-90deg);
     padding: 15px;
+    width: 100px;
 }
 
 .feedback-button{
